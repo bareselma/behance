@@ -1,0 +1,29 @@
+.sticky {
+    position: sticky;
+    left: 0;
+    top: 6rem;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    min-height: 6rem;
+
+    display: grid;
+    gap: 1rem;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky a {
+    color: #333;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.1;
+    text-align: center;
+    transition: color 0.2s;
+}
+
+.sticky a:hover {
+    color: blue;
+}
