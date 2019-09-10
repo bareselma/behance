@@ -1,4 +1,6 @@
 .top-menu {
+    z-index: 2;
+    
     padding-right: 1rem;
     padding-left: 1rem;
     position: fixed;
